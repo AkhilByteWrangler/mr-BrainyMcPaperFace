@@ -135,7 +135,7 @@ Visit http://localhost:3000 in your browser.
 pip install flask-cors
 ```
 
-2. Install react-scripts. Install other common frontend packages like axios. Use this command : ```bash npm install react react-dom react-scripts axios postcss autoprefixer react-icons ```
+2. Install react-scripts. Install other common frontend packages like axios. Use this command : ```npm install react react-dom react-scripts axios postcss autoprefixer react-icons ```
 3. If you haven't yet installed Tailwind, you’ll need to install it and configure it.
 
 ```bash
