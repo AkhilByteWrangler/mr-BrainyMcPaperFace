@@ -45,30 +45,8 @@ The backend extracts text from the uploaded PDF using **PyMuPDF** and sends it a
 
 ## Project Structure
 
-AI-Powered-PDF-QA-App/ 
-├── backend/ 
-│ ├── app.py # Flask backend server 
-│ ├── models.py # GPT-4 query and PDF extraction functions 
-│ ├── requirements.txt # Python dependencies 
-│ └── uploads/ # Uploaded PDFs are stored here 
-├── frontend/ 
-│ ├── public/ 
-│ │ ├── background-video.mp4 # Background video (optional) 
-│ │ ├── index.html 
-│ ├── src/ 
-│ │ ├── components/ 
-│ │ │ ├── QuestionForm.js # Question input form 
-│ │ │ ├── AnswerDisplay.js # Display AI's answer 
-│ │ │ ├── LoadingSpinner.js# Shows loading animation 
-│ │ ├── App.js # Main React app 
-│ │ ├── index.js # React entry point 
-│ │ ├── index.css # CSS for styling  
-│ ├── tailwind.config.js # Tailwind configuration 
-│ ├── postcss.config.js # Frontend dependencies 
-│ ├── package.json # Frontend dependencies 
-│ ├── package-lock.json 
-└── README.md # Project documentation
-└── LICENSE 
+![image](https://github.com/user-attachments/assets/c12c46ed-f0f4-47d1-a8da-6b29ee68bb1c)
+
 
 
 ---
@@ -157,7 +135,7 @@ Visit http://localhost:3000 in your browser.
 pip install flask-cors
 ```
 
-2. Installed react-scripts. Installed other common frontend packages like axios. Use this command : npm install react react-dom react-scripts axios postcss autoprefixer react-icons
+2. Install react-scripts. Install other common frontend packages like axios. Use this command : ```bash npm install react react-dom react-scripts axios postcss autoprefixer react-icons ```
 3. If you haven't yet installed Tailwind, you’ll need to install it and configure it.
 
 ```bash
