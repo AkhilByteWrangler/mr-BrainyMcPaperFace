@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// React and useState? Check. We’re also bringing in useEffect because we’re going to animate the answer letter-by-letter, 
+// React and useState? Check. We’re also bringing in useEffect because we’re going to animate the answer letter-by-letter (Yeah, I'm too jobless... Sigh... Somebody give me a job :O), 
 // and useEffect helps us make things happen after the component has been rendered.
 
 const AnswerDisplay = ({ answer }) => {
