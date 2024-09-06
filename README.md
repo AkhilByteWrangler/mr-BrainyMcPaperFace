@@ -47,8 +47,6 @@ The backend extracts text from the uploaded PDF using **PyMuPDF** and sends it a
 
 ![image](https://github.com/user-attachments/assets/c12c46ed-f0f4-47d1-a8da-6b29ee68bb1c)
 
-
-
 ---
 
 ## Setup Instructions
@@ -79,11 +77,13 @@ pip install -r requirements.txt
 
 3. Set up your OpenAI API key:
 
-Create an .env file in the backend directory and add your OpenAI API key to models.py line 12:
+Add your OpenAI API key to models.py line 12:
 
 ```bash
 openai.api_key = "ENTER YOUR OPENAI API KEY HERE, OR ELSE IT WON'T RUN :)"
 ```
+
+You can generate one at https://openai.com/index/openai-api/.
 
 4. Run the Flask server:
 
