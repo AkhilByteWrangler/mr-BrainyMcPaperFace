@@ -150,4 +150,12 @@ npx tailwindcss init
 
 ### Contributing
 
-Feel free to submit a pull request or open an issue if you find a bug or have suggestions for improvements!
+Feel free to submit a pull request or open an issue if you find a bug or have suggestions for improvements! Also you could re-use the code for your 'educational purposes'. Video rights are reserved by their owners, cite fairly if used. 
+
+---
+
+### Background Video Credits
+
+Used for educational purposes only, not for any commercial purposes. The content solely belongs to their creators. https://www.youtube.com/watch?v=7ia8z_Picbg (accessed September 6, 2024).
+
+
