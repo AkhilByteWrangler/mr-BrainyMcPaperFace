@@ -31,10 +31,10 @@ function App() {
       const interval = setInterval(() => {
         setProgress((oldProgress) => {
           if (oldProgress >= 100) {
-            clearInterval(interval); // Stop updating when progress reaches 100%
+            clearInterval(interval); // Stop updating when progress reaches 100%, fine for the 200% over-enthusiastic AIPI590 students I guess, meh they just bots :O
             return 100;
           }
-          const increase = Math.random() * 20; // Random progress increments (makes it feel more real!)
+          const increase = Math.random() * 20; // Random progress increments (makes it feel more real, fake it till you make it!)
           return Math.min(oldProgress + increase, 100); // Make sure we don't go over 100%
         });
       }, 500); // Update every half second
@@ -44,7 +44,7 @@ function App() {
   }, [loading]);
 
   const fetchAnswer = async (formData) => {
-    setLoading(true);  // The AI is now thinking, so we start the loading process.
+    setLoading(true);  // The AI is now thinking, so we don't have to, and now we start the loading process.
 
     try {
       // **Step 1: Send the PDF and question to the backend for text extraction**
