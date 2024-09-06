@@ -15,7 +15,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  // React.StrictMode is like a friendly but firm teacher. It helps catch potential issues in your code and warns you when you're doing something risky, 
+  // React.StrictMode is like a friendly but firm teacher, like AIPI 590's?. It helps catch potential issues in your code and warns you when you're doing something risky, 
   // like using deprecated features or forgetting best practices. It's like a helpful sidekick that tells you to clean your room before the guests arrive.
 
   document.getElementById('root')
