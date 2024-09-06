@@ -1,0 +1,34 @@
+@tailwind base;
+/* This is where the basic stuff from Tailwind comes in. 
+   Think of it like the foundation or the skeleton—things like resets and core styles. */
+
+@tailwind components;
+/* Now we're bringing in Tailwind's prebuilt components.
+   It's like having a toolbox of pre-designed UI elements you can grab and use quickly, instead of building every single one from scratch. */
+
+@tailwind utilities;
+/* And finally, the big one: utilities. 
+   These are the one-liner classes that make Tailwind so cool, like `text-center` or `mt-4`. It’s basically CSS without the fuss. */
+
+/* Optional custom global styles */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* Setting up a full-height canvas for your app to live on. 
+     We don't want any weird browser-default margins or padding sneaking in and messing with our perfectly aligned Tailwind classes. */
+}
+
+/* Custom animation for buttons or other components */
+button {
+  transition: transform 0.2s ease-in-out;
+  /* Adding a smooth transition for when the button gets hovered over or clicked. 
+     This is like telling the button, "Hey, don't just jump to a new state, glide into it gracefully." */
+}
+
+button:hover {
+  transform: scale(1.05);
+  /* When the user hovers over the button, we scale it up by 5%. 
+     This is the button equivalent of flexing when someone looks at you. Just a subtle 'look at me' moment. */
+}
+

@@ -1,0 +1,6 @@
+Flask==2.0.1
+Flask-CORS==3.0.10
+PyMuPDF==1.18.19
+openai==0.27.0
+python-dotenv==0.19.2
+tiktoken==0.1.0
